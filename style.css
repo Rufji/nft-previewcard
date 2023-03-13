@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:wght@400;700&family=Outfit:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%)
+}
+div.bg-hero{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/image-equilibrium.jpg);
+    
+}
+
+div.bg-hero img{
+    display: none;
+}
+div.bg-hero:hover{
+    background-image: linear-gradient(hsla(215, 100%, 70%, 0.8),hsla(215, 100%, 70%, 0.8)),url(./images/image-equilibrium.jpg);
+    cursor: pointer;
+}
+div.bg-hero:hover img.view{
+    display: block;
+}
+h3{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px 0px;
+    color: hsl(0, 0%, 100%);
+}
+h3:hover{
+    color: hsl(215, 100%, 70%);
+}
+p{
+    
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+div.price .span{
+    padding: 11px 0;
+    display: flex;
+
+} 
+div.price .span p{
+    font-size: 13px;
+}
+div.price .span .icon{
+    margin-right: 5px;
+    width: 11px;
+    height: 14px;
+}
+div.price .span .eth{
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+div.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.container{
+    width: 265px;
+    height: 63vh;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    box-shadow: .1px 16px 12px 17px hsla(217, 54%, 7%, 0.3);
+    
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 9px;
+}
+div.col2{
+    height: 10vh;
+}
+div.user{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    flex-direction: row;
+}
+p.creation{
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 17px;
+}
+strong{
+    color: white;
+    font-weight: 600;
+}
+strong:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+img.profile{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+}
